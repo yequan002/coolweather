@@ -21,6 +21,13 @@
         <activity android:name="com.example.apple.coolweather.activity.WeatherActivity">
 
         </activity>
+
+        <service android:name="com.example.apple.coolweather.service.AutoUpdateService">
+
+        </service>
+        <receiver android:name="com.example.apple.coolweather.receiver.AutoUpdateReceiver">
+
+        </receiver>
     </application>
 
 </manifest>
